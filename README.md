@@ -93,7 +93,6 @@ $ git remote set-url origin http://github.com/username/username.github.io
 ```
 ###### Note: Make sure your replace 'username' with your github username.
 #
-#
 >Now you are free to make changes to the repository/files.
 
 
