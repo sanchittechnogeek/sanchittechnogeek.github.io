@@ -23,7 +23,8 @@ If you like my blogging website and want to host your own but don't know how to 
 
 - how to clone my repository
 - how to upload it to gh-pages
-##### Note: You will be learning some basic git commands along the way
+
+###### Note: You will be learning some basic git commands along the way
 
 ### Tech Stack
 
