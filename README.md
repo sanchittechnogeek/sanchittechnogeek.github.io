@@ -19,7 +19,7 @@ You can also:
   - Ping me if you need help in getting started with something
   - etc.
 
-If you like my blogging website and want to host your own but don't know how to use Git and Github. I'll help you to get started by:  
+If you like my blogging website and want to host your own but don't know how to use Git and Github. I'll help you to get started by:
 
 - how to clone my repository
 - how to upload it to gh-pages
@@ -30,10 +30,10 @@ If you like my blogging website and want to host your own but don't know how to 
 
 I am using :
 
-* JavaScript - HTML enhanced for website!
-* [Twitter Bootstrap] - great UI boilerplate for modern websites
+* JavaScript - commonly used to create interactive effects within web browsers.
+* Twitter Bootstrap - great UI boilerplate for modern websites
 * CSS - Serving html content beautifully
-* [jQuery] - duh
+* jQuery - a javascript library for handling animation etc.
 
 And of course my website itself is open source with a public repository on GitHub.
 
