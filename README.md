@@ -19,11 +19,11 @@ You can also:
   - Ping me if you need help in getting started with something
   - etc.
 
-If you like my blogging website and want to host your own but don't know how to use Git and Github. I'll help you to get started by:
+If you like my blogging website and want to host your own but don't know how to use Git and Github. I'll help you to get started by:  
 
 - how to clone my repository
 - how to upload it to gh-pages
-###### Note: You will be learning some basic git commands along the way
+##### Note: You will be learning some basic git commands along the way
 
 ### Tech Stack
 
@@ -53,7 +53,7 @@ It’s your call, if you want to get the Git docs as well. Else the git-core fil
 Now, we need to generate a SSH key for your system. It’s as easy as opening a terminal and typing ‘ssh-keygen‘ and then pressing enter. Follow the further instructions and you get the SSH key generated under the .ssh/id_rsa.pub file. No worries, the full path of the file shows up as soon as the SSH key gets generated.
 
 ### Add your SSH key to GitHub
-###### NOTE: This is not necessary. If you want you skip this step
+###### NOTE: This is not necessary. If you want you can skip this step
 
 The next step is to paste the generated SSH key to the corresponding textarea on the Git profile page. So, proceeding step-wise,
 1. Open the generated id_rsa.pub file on your system and copy all of its content.
@@ -95,8 +95,7 @@ $ git remote set-url origin http://github.com/username/username.github.io
 #
 #
 >Now you are free to make changes to the repository/files.
-...
->After your are done , now its time to push it to you gh-pages repository
+>After you are done , now its time to push it to you gh-pages repository
 
 ### Adding files to the staging area and committing them
 
