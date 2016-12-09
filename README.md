@@ -95,7 +95,7 @@ $ git remote set-url origin http://github.com/username/username.github.io
 #
 #
 >Now you are free to make changes to the repository/files.
->After you are done , now its time to push it to you gh-pages repository
+
 
 ### Adding files to the staging area and committing them
 
@@ -122,7 +122,7 @@ $ git log
 ```
 Now it will show you something like 088c08u00c... with a commit message , time, date and with account info.
 
-Now everything is ready to be pushed to your github repository for Gh-pages
+>After you are done , now its time to push it to your gh-pages repository
 
 ### Pushing the files to your gh-pages repository
 
