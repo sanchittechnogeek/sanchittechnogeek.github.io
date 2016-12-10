@@ -231,7 +231,6 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13.8px;
     line-height: 1.42857;
     color: #333;
     background-color: #fff
@@ -2759,7 +2758,7 @@ a.waves-effect .waves-ripple {
 body,
 html {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     width: 100%;
     height: 100%;
     background: #fff;
@@ -3384,7 +3383,7 @@ time {
     opacity: 1
 }
 
-.top-header .overlay {
+.overlay {
     opacity: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s
@@ -3399,7 +3398,7 @@ time {
     transition: all 0.3s
 }
 
-.logo-header {
+.top-header.after-scroll .logo-header {
     -webkit-transform: translateY(1px);
     -ms-transform: translateY(1px);
     transform: translateY(1px)
@@ -3446,7 +3445,7 @@ nav ul {
     transition: all 0.3s
 }
 
-nav ul {
+.top-header.after-scroll nav ul {
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
     transform: translateY(20px)
@@ -3473,12 +3472,12 @@ nav li a:hover {
     color: #cfcfcf
 }
 
-nav li a {
+.top-header.after-scroll nav li a {
     color: rgba(0, 0, 0, 0.5)
 }
 
-nav li a.current,
-nav li a:hover {
+.top-header.after-scroll nav li a.current,
+.top-header.after-scroll nav li a:hover {
     color: rgba(0, 0, 0, 0.8)
 }
 
@@ -3511,7 +3510,7 @@ nav li a:hover {
     fill: #e6e6e6
 }
 
-.icon-menu {
+.top-header.after-scroll .icon-menu {
     fill: #464646
 }
 
@@ -3641,7 +3640,7 @@ nav li a:hover {
     position: relative;
     min-height: 400px;
     padding-top: 0;
-    background: #2f62e8
+    background: #ffffff
 }
 
 .top-section .gradient-overlay {
@@ -5208,7 +5207,7 @@ nav li a:hover {
         -ms-transform: translateX(-45px);
         transform: translateX(-45px)
     }
-    .logo-header {
+    .top-header.after-scroll .logo-header {
         -webkit-transform: translateX(-45px);
         -ms-transform: translateX(-45px);
         transform: translateX(-45px)
@@ -5242,7 +5241,7 @@ nav li a:hover {
         -ms-transform: translateY(0);
         transform: translateY(0)
     }
-    nav ul {
+    .top-header.after-scroll nav ul {
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0)
@@ -5264,11 +5263,11 @@ nav li a:hover {
     nav li a:hover {
         color: #03a9f4
     }
-    nav li a {
+    .top-header.after-scroll nav li a {
         top: 20px
     }
-    nav li a.current,
-    nav li a:hover {
+    .top-header.after-scroll nav li a.current,
+    .top-header.after-scroll nav li a:hover {
         color: #03a9f4
     }
     .top-section-hero .jumbotron {
@@ -5485,4 +5484,60 @@ nav li a:hover {
     .hidden-md {
         display: none !important
     }
+}
+
+.cf-hidden {
+    display: none;
+}
+
+.cf-invisible {
+    visibility: hidden;
+}
+
+.trumpet {
+    position: absolute;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    z-index: -1;
+    font-family: Helvetica Neue, Helvetica, san-serif;
+    font-size: 18px;
+    top: -50px;
+    left: 0;
+    opacity: 0;
+    filter: progid: dximagetransform.microsoft.alpha(Opacity=0);
+    width: 100%;
+    color: #DDD;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #333;
+    border-bottom: 1px solid black;
+}
+
+.trumpet.trumpet-animate,
+.trumpet.trumpet-js-animate {
+    z-index: 100000;
+    top: 0px;
+}
+
+.trumpet.trumpet-animate {
+    opacity: 1;
+    filter: progid: dximagetransform.microsoft.alpha(Opacity=100);
+}
+
+.trumpet.trumpet-animate:hover {
+    opacity: 0.7;
+    filter: progid: dximagetransform.microsoft.alpha(Opacity=70);
+}
+
+.trumpet.trumpet-js-animate {
+    opacity: 1;
+    filter: progid: dximagetransform.microsoft.alpha(Opacity=100);
+}
+
+.trumpet.trumpet-js-animate:hover {
+    opacity: 0.7;
+    filter: progid: dximagetransform.microsoft.alpha(Opacity=70);
 }
