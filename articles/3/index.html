@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script src="./css/cloudflare.min.js"></script>
+    <meta name="author" content="Sanchit Mishra">
+    <meta name="description" content="My interests and participation in the FOSSASIA community">
+    <link rel="canonical" href="https://sanchittechnogeek.github.io/">
+    <!-- Social: Twitter -->
+    <meta name="robots" content="index,follow">
+    <link rel="shortcut icon" href="">
+    <meta http-equiv="author" content="SANCHIT MISHRA" />
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta name="theme-color" content="#01abef">
+    <link href="./css/main.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <style type="text/css"></style>
+    <title>CoderDojo</title>
+</head>
+
+<body>
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+                <!-- Begin Top Section -->
+                <section id="top-section" class="top-section image-section enable-overlay" style="background-image: url(&#39;https://coderdojo.com/wp-content/uploads/2015/12/IMG_2878-1024x768.jpg &#39;);">
+                    <div class="overlay gradient-overlay"></div>
+                    <header id="top-header" class="top-header">
+                        <nav>
+                            <a href="mailto:sanchitmishra1999@gmail.com" class="right-nav-button btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm right-nav-button-hidden" target="_blank">
+            Contact Author
+        </a>
+                        </nav>
+                    </header>
+                    <div class="content-wrapper">
+                        <div class="jumbotron text-left">
+                            <div class="animated fadeInDown  visible" data-animation="fadeInDown" data-delay="500">
+                                <h1>Setting up Zen Environment and Running CoderDojo</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Top Section -->
+                <!-- Begin Post-->
+                <section id="post-section" class="post-section">
+                    <div class="content-wrapper text-left">
+                        <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+                            <div class="col-lg-8 col-md-10 col-xs-12">
+                                <article class="row post">
+                                    <div class="post-body">
+                                        <p>
+                                            Hey guys i hope you all are fine!,
+                                            <br>
+                                        </p>
+                                        <p>So, today i got a task to Set up the Zen development environment running on your computer and upload a blog post : CoderDojo</p>
+                                        <br>
+                                        <center>
+                                            <h6>It was quite simple to setup actually, having all the instructions given. Today i will make that even simpler for you, just follow along! :)<h6></center>
+
+                                            <br>
+                                            <br>
+
+                                            <br>
+                                            <p>So, lets start by getting to know what is coderdojo actually.</p>
+                                            <br>
+                                            <br>
+
+                                            <p><center><img src="https://www.kfpl.ca/files/images/page/header/coderdojo-header.jpg" height="750" width="850" class="img-responsive"></center></p>
+                                        <p></p>
+                                        <br>
+                                        <br>
+                                        <br>
+
+
+                                            <h5 style="font-weight: 300;">CoderDojo:</h5>
+                                             <p>CoderDojo is a worldwide movement of free, volunteer-led, community-based programming clubs for young people. Anyone aged seven to seventeen can visit a Dojo where they can learn to code, build a website, create an app or a game, and explore technology in an informal, creative, and social environment.
+
+
+                                             <br><br>
+                                             The CoderDojo movement believes that an understanding of programming languages is increasingly important in the modern world, that it’s both better and easier to learn these skills early, and that nobody should be denied the opportunity to do so.
+                                             <br><br>
+
+                                        </p>
+                                        <br>
+                                        <br>
+                                        <p><center><img src="https://coderdojo.com/wp-content/uploads/2015/02/CoderDojo-Warrington111.jpg"  height="650" width="750" class="img-responsive"></center></p>
+                                        <p></p>
+                                        <br>
+                                        <br>
+                                        <h5 style="font-weight: 300;">Setting up the zen environment:</h5>
+                                             <p> So now lets start with installing the and setting up the zen environment and running the CodeDojo platform locally.
+                                        </p>
+<br>
+
+                                        <h5 style="font-weight: 300;">Installation:</h5>
+                                             <p>
+                                             Before setting up the environment it is required for you to have:
+                                             <ul>
+                                             <li> NodeJS version 0.10.38 or 5.7.0 - ideally installed with nvm as described in this <a href="http://www.nearform.com/nodecrunch/nodejs-sudo-free/">article</a></li> 
+                                             <li> PostgreSQL version 9.4 - see <a href="https://wiki.postgresql.org/wiki/Detailed_installation_guides">here</a> for installation instructions for your platform. You also may want to install the pgAdmin.</li>
+                                             <ul>
+                                                 <li>N.B. When you install PostGres make sure that you set a password for the "postgres" user and keep a note of it, or you may run into issues.</li>
+                                                 <li>When PostgreSQL is installed, you need to create a new user (you can do this from pgAdmin 'Login Roles' in the tree):
+                                                 <ul>
+                                                     <li>username: platform</li>
+                                                     <li>password: QdYx3D5y</li>
+                                                 </ul></li>
+                                             </ul>
+                                             <li> Grunt</li>
+                                             <li> Gulp</li>
+                                             <li> Bower</li>
+                                        </ul>
+                                        </p>
+                                        <br>
+
+                                        <h5>Code Setup:</h5>
+                                        <p>
+                                        Next step is to get the Community Platform code cloned and up and running. To do that you clone this repo and use the localdev command to both setup and run the code:<br>
+
+                                        <code>$ git clone https://github.com/CoderDojo/cp-local-development.git</code><br>
+                                        <code>$ cd cp-local-development</code><br>
+<code>$ nvm use</code><br>
+<code>$ npm install</code><br><br>
+Then run node <code>./localdev.js</code> to make sure the localdev tool can run ok. You should see output similar to the following:<br><br>
+<code>Usage "./localdev.js <command>" where command is one of:
+  "init zen": does a fresh setup of your local dev environment
+  "run zen": runs all the services in your system
+  "testdata zen": loads test data for each service
+  "test zen": run the e2e tests</code><br><br>
+  The localdev tool has one system configured, called zen (this can be extended to use multiple systems, but for now, 'zen' is the only one).
+  <br></p>
+
+  <h5>localdev init</h5>
+
+<p>Note: By default init will clone the repositories directly from the CoderDojo Foundation account. If you prefer to clone your own repos, please have a look at how to work with your own forks.
+
+Next, run <code>./localdev.js init zen</code>
+</p>
+<h5>localdev run</h5>
+<p>
+Next, run <code>./localdev.js run zen</code> 
+<ul>
+    <li>sets up 'watchers' for each service in the system</li>
+    <li>runs each service</li>
+</ul></p>                               
+<p>
+The output from each service is displayed in the run shell. Note that this is not a daemon process, the run command will not exit until you hit ctrl-c. The 'watchers' detect any changes to code files in any of the service code repos, if a file is changed the service is restarted automatically. This allows for really quick development.<br><br>
+
+Note that you can also run services individually if you wish,
+<br> e.g. <code>./localdev.js run zen cp-zen-platform</code>.<br><br>
+
+Once run looks to be running all the services ok (you'll see a lot of stack traces in the output if they are not running ok!) you should be able to hit <CODE>localhost:8000</CODE> in your browser. If this is your first time running, you should see the world map but with no dojo markers, these will appear when we install some test data.  <br>  <br>    </p>
+<center> <p>
+   "At last only want to say setting up coderdojo's zen platform environment was an amazing experience, you should try it too! :)"
+</p></center>
+<br>
+                                        => Click the below link for more info about CoderDojo and how you can join this awesome club!
+                                      <center><a href="https://coderdojo.com">Coderdojo.com</a></center>
+                                    <div id="page-navigation" class="page-navigation">
+                                        <div class="next col-xs-6">
+                                        </div>
+                                        <div class="next col-xs-6">
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="row center bordered">
+        <a href="https://sanchittechnogeek.github.io/" class="btn btn-primary waves-effect waves-button waves-light waves-float animated fadeInUp visible" data-animation="fadeInUp">BACK TO BLOG HOME</a>
+         </span>
+                </section>
+                <!-- End Post -->
+                <hr>
+
+           <!--AUTHORS TOTAL-->
+      <section id="statistic" class="statistic image-section parallax" style="background-image: url(https://onepagelove.com/wp-content/uploads/2014/03/opl-parallax-universe.jpg);">
+
+        <div class="overlay solid-overlay"></div>
+
+      <div class="content-wrapper">
+               <div class="col-lg-10 col-lg-offset-1">
+                <h3>Author</h3>
+                <h5>We believe in sharing our knowledge</h5>
+                 <div class="row about-details">
+
+                  <div class="col-sm-12 text-center">
+                    <div class="animated fadeInDown visible" data-animation="fadeInDown" data-delay="500">
+
+                     <a href="https://github.com/sanchittechnogeek">
+                      <img class="img-circle" src="./img/ceo2.jpg" height="128" width="128" alt="Triambikey Joshi">
+                      <h5>Sanchit Mishra</h5>
+                       </a> <p> < Designer / Developer > </p>
+                     </div>
+                   </div>
+
+                     </div>
+                   </div>
+                 </div>
+              </section>
+    <script src="./css/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="./js/jquery.min.js ><\/script>')
+    </script>
+    <script src="./css/bootstrap.min.js"></script>
+    <script>
+    if (typeof($.fn.modal) === 'undefined') {
+        document.write('<script src="./js/bootstrap.min.js ><\/script>')
+    }
+    </script>
+    <script src="./css/default.min.js"></script>
+    <script>
+    Waves.displayEffect();
+    </script>
+    <script src="./css/scripts.min.js"></script>
+</body>
+
+</html>
