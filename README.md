@@ -50,11 +50,12 @@ $ sudo apt-get install git-core git-gui git-doc
 It’s your call, if you want to get the Git docs as well. Else the git-core files would be just enough.
 
 ### Setting up the SSH key on our system
+###### NOTE: This is not necessary. If you want, you can skip this step!
 
 Now, we need to generate a SSH key for your system. It’s as easy as opening a terminal and typing ‘ssh-keygen‘ and then pressing enter. Follow the further instructions and you get the SSH key generated under the .ssh/id_rsa.pub file. No worries, the full path of the file shows up as soon as the SSH key gets generated.
 
 ### Add your SSH key to GitHub
-###### NOTE: This is not necessary. If you want you can skip this step
+###### NOTE: This is not necessary. If you want, you can skip this step!
 
 The next step is to paste the generated SSH key to the corresponding textarea on the Git profile page. So, proceeding step-wise,
 1. Open the generated id_rsa.pub file on your system and copy all of its content.
