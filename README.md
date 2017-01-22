@@ -133,3 +133,4 @@ $ git push origin master
 It will now ask you for your github username and password for confirmation, enter it then press enter and Wala! , You will see a message stating all the files has been pushed to your repository's master branch.
 
 ### Now you have your blogging site up and running at: https://username.github.io
+###### Note: Make sure your replace 'username' with your github username.
