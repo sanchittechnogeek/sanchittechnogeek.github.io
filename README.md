@@ -57,7 +57,8 @@ Now, we need to generate a SSH key for your system. It’s as easy as opening a 
 ### Add your SSH key to GitHub
 ###### NOTE: This is not necessary. If you want, you can skip this step!
 
-The next step is to paste the generated SSH key to the corresponding textarea on the Git profile page. So, proceeding step-wise,
+The next step is to paste the generated SSH key to the corresponding textarea on the Git profile page. So, proceeding step-wise:
+
 1. Open the generated id_rsa.pub file on your system and copy all of its content.
 2. Login to Git.
 3. Go to your profile update page. You can see the textarea for ‘Add a public key’.
