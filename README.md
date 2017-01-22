@@ -124,9 +124,9 @@ Now it will show you something like 088c08u00c... with a commit message , time, 
 
 >After you are done , now its time to push it to your gh-pages repository
 
-### Pushing the files to your gh-pages repository
+### Pushing the files to your Github Pages repository
 
-Now to push your files to gh-pages repository, type:
+Now to push your files to Github Pages repository, type:
 ```sh
 $ git push origin master
 ```
